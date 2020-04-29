@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testFlow.Bai5">
+      <class name="apitest.Bai10">
         <methods>
           <include name="beforeMethod"/>
-          <include name="f"/>
           <include name="afterMethod"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- testFlow.Bai5 -->
+      </class> <!-- apitest.Bai10 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

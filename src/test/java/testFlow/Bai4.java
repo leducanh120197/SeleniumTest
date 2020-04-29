@@ -39,7 +39,7 @@ public class Bai4 {
 
 	@AfterMethod
 	public void afterMethod() {
-//		  driver.close();
+		  driver.close();
 	}
 
 	public boolean isElementPresent(By locator) {

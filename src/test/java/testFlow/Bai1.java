@@ -18,7 +18,12 @@ public class Bai1 {
 		driver.findElement(By.xpath("//*[@id=\"downloadButton\"]")).click();
 		
 		String complate = waitAndGetElement(By.xpath("//*[@id=\"dialog\"]/div[contains(text(),\"Complete!\")]"), 10000).getText();
-		driver.findElement(By.xpath("//button[contains(text(), \"Close\")]")).click();
+		try {
+			driver.findElement(By.xpath("//button[contains(text(), \"Close\")]")).click();
+		}
+		catch(Exception e){
+			System.out.println(e);
+		}
 	}
 
 	@BeforeMethod
@@ -29,7 +34,7 @@ public class Bai1 {
 
 	@AfterMethod
 	public void afterMethod() {
-//		  driver.close();
+		  driver.close();
 	}
 
 	public boolean isElementPresent(By locator) {
