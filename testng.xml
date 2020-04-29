@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1">
+	<test name="Regression" verbose="1">
+		<classes>
+			<class name="apitest.SeleniumAPI" />
+			<class name="testFlow.TestFlow" />
+			<!-- <class name="testNG.TestNG" /> -->
+		</classes>
+	</test>
+</suite>

@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-27T23:06:11 ICT" name="Default suite" finished-at="2020-04-27T23:06:28 ICT" duration-ms="17336">
+  <suite started-at="2020-04-29T15:08:26 ICT" name="Default suite" finished-at="2020-04-29T15:08:41 ICT" duration-ms="15465">
     <groups>
     </groups>
-    <test started-at="2020-04-27T23:06:11 ICT" name="Default test" finished-at="2020-04-27T23:06:28 ICT" duration-ms="17336">
-      <class name="testFlow.Bai1">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testFlow.Bai1@d706f19]" started-at="2020-04-27T23:06:11 ICT" name="beforeMethod" finished-at="2020-04-27T23:06:18 ICT" duration-ms="7202" status="PASS">
+    <test started-at="2020-04-29T15:08:26 ICT" name="Default test" finished-at="2020-04-29T15:08:41 ICT" duration-ms="15465">
+      <class name="testNG.TestNG">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.TestNG@2928854b]" started-at="2020-04-29T15:08:26 ICT" name="beforeMethod" finished-at="2020-04-29T15:08:31 ICT" duration-ms="5683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f()[pri:0, instance:testFlow.Bai1@d706f19]" started-at="2020-04-27T23:06:18 ICT" name="f" finished-at="2020-04-27T23:06:27 ICT" duration-ms="9330" status="PASS">
+        <test-method signature="bai1()[pri:0, instance:testNG.TestNG@2928854b]" started-at="2020-04-29T15:08:31 ICT" name="bai1" finished-at="2020-04-29T15:08:41 ICT" duration-ms="9734" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testFlow.Bai1@d706f19]" started-at="2020-04-27T23:06:27 ICT" name="afterMethod" finished-at="2020-04-27T23:06:28 ICT" duration-ms="617" status="PASS">
+        </test-method> <!-- bai1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.TestNG@2928854b]" started-at="2020-04-29T15:08:41 ICT" name="afterMethod" finished-at="2020-04-29T15:08:41 ICT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- testFlow.Bai1 -->
+      </class> <!-- testNG.TestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

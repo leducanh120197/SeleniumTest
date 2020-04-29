@@ -30,8 +30,12 @@
 			<artifactId>opencsv</artifactId>
 			<version>4.1</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>4.1.1</version>
+		</dependency>
 	</dependencies>
-
 
 	<build>
 		<plugins>
@@ -40,34 +44,15 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M4</version>
 				<configuration>
-				<!--  	
+
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
-					</suiteXmlFiles> 
-				-->
-				<includes>
-					<include>apitest.Bai1.java</include>
-					<include>apitest.Bai2.java</include>
-					<include>apitest.Bai3.java</include>
-					<include>apitest.Bai4.java</include>
-					<include>apitest.Bai5.java</include>
-					<include>apitest.Bai6.java</include>
-					<include>apitest.Bai7.java</include>
-					<include>apitest.Bai8.java</include>
-					<include>apitest.Bai9.java</include>
-					<include>apitest.Bai10.java</include>
-					<include>apitest.Bai11.java</include>
-					
-					<include>testFlow.Bai1.java</include>
-					<include>testFlow.Bai2.java</include>
-					<include>testFlow.Bai3.java</include>
-					<include>testFlow.Bai4.java</include>
-					<include>testFlow.Bai5.java</include>
-					
-					<include>testNg.Bai1.java</include>
-				</includes>
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+					</suiteXmlFiles>
+
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
+
+
 </project>

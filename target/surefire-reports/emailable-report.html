@@ -8,50 +8,15 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">14</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">235,635</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite1</th></tr>
+<tr><td><a href="#t0">Regression</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">31,856</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">apitest.Bai10</td><td><a href="#m0">f</a></td><td rowspan="1">1588004064090</td><td rowspan="1">1626</td></tr><tr class="failedodd"><td rowspan="1">apitest.Bai7</td><td><a href="#m1">f</a></td><td rowspan="1">1588004151976</td><td rowspan="1">19954</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">apitest.Bai1</td><td><a href="#m2">bai1</a></td><td rowspan="1">1588004050289</td><td rowspan="1">8050</td></tr><tr class="passedodd"><td rowspan="1">apitest.Bai11</td><td><a href="#m3">f</a></td><td rowspan="1">1588004071409</td><td rowspan="1">1827</td></tr><tr class="passedeven"><td rowspan="1">apitest.Bai2</td><td><a href="#m4">bai2</a></td><td rowspan="1">1588004082858</td><td rowspan="1">9684</td></tr><tr class="passedodd"><td rowspan="1">apitest.Bai3</td><td><a href="#m5">f</a></td><td rowspan="1">1588004102154</td><td rowspan="1">7839</td></tr><tr class="passedeven"><td rowspan="1">apitest.Bai4</td><td><a href="#m6">f</a></td><td rowspan="1">1588004115781</td><td rowspan="1">8569</td></tr><tr class="passedodd"><td rowspan="1">apitest.Bai5</td><td><a href="#m7">f</a></td><td rowspan="1">1588004129971</td><td rowspan="1">4482</td></tr><tr class="passedeven"><td rowspan="1">apitest.Bai6</td><td><a href="#m8">f2</a></td><td rowspan="1">1588004144397</td><td rowspan="1">2022</td></tr><tr class="passedodd"><td rowspan="1">apitest.Bai8</td><td><a href="#m9">printTokyo</a></td><td rowspan="1">1588004177532</td><td rowspan="1">1500</td></tr><tr class="passedeven"><td rowspan="1">apitest.Bai9</td><td><a href="#m10">f</a></td><td rowspan="1">1588004184587</td><td rowspan="1">2535</td></tr><tr class="passedodd"><td rowspan="1">testFlow.Bai1</td><td><a href="#m11">f</a></td><td rowspan="1">1588004192803</td><td rowspan="1">9381</td></tr><tr class="passedeven"><td rowspan="1">testFlow.Bai2</td><td><a href="#m12">f</a></td><td rowspan="1">1588004207827</td><td rowspan="1">4378</td></tr><tr class="passedodd"><td rowspan="1">testFlow.Bai3</td><td><a href="#m13">f</a></td><td rowspan="1">1588004217835</td><td rowspan="1">11847</td></tr><tr class="passedeven"><td rowspan="1">testFlow.Bai4</td><td><a href="#m14">f</a></td><td rowspan="1">1588004235379</td><td rowspan="1">22570</td></tr><tr class="passedodd"><td rowspan="1">testFlow.Bai5</td><td><a href="#m15">f</a></td><td rowspan="1">1588004263591</td><td rowspan="1">14903</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">apitest.SeleniumAPI</td><td><a href="#m0">bai7</a></td><td rowspan="1">1588145838525</td><td rowspan="1">10212</td></tr><tr><th colspan="4">Regression &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testFlow.TestFlow</td><td><a href="#m1">bai5</a></td><td rowspan="1">1588145853890</td><td rowspan="1">10498</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">apitest.Bai10#f</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [13] but found [15]
-	at apitest.Bai10.f(Bai10.java:43)
+<h2>Regression</h2><h3 id="m0">apitest.SeleniumAPI#bai7</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at apitest.SeleniumAPI.bai7(SeleniumAPI.java:148)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">apitest.Bai7#f</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&quot;login&quot;]&quot;}
-  (Session info: chrome=81.0.4044.122)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-DSGLPDL&apos;, ip: &apos;192.168.1.170&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\leduc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 33a284373f0ccffd24d9ee42a7c1e0f1
-*** Element info: {Using=xpath, value=//*[@class=&quot;login&quot;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at apitest.Bai7.f(Bai7.java:18)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">apitest.Bai1#bai1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">apitest.Bai11#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">apitest.Bai2#bai2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">apitest.Bai3#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">apitest.Bai4#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">apitest.Bai5#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">apitest.Bai6#f2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">apitest.Bai8#printTokyo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">apitest.Bai9#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">testFlow.Bai1#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">testFlow.Bai2#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m13">testFlow.Bai3#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m14">testFlow.Bai4#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m15">testFlow.Bai5#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testFlow.TestFlow#bai5</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
